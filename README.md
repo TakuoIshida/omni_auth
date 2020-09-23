@@ -1,5 +1,3 @@
-# engineer-chat
-
 ## Core function
 - Firebase Authentication
 
@@ -10,9 +8,9 @@
 ## Data download & construction
 
 ```bash
-$ git clone https://github.com/dai-570415/engineer-chat.git
+$ git clone https://github.com/TakuoIshida/omni_auth.git
 
-$ cd engineer-chat
+$ cd omni_auth
 
 $ npm install
 
