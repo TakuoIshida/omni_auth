@@ -3,14 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "Your_Key",
-    authDomain: "Your_Key",
-    databaseURL: "Your_Key",
-    projectId: "Your_Key",
-    storageBucket: "Your_Key",
-    messagingSenderId: "Your_Key",
-    appId: "Your_Key",
-    measurementId: "Your_Key"
+    apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
+    authDomain: 'ibis-web-auth.firebaseapp.com',
+    databaseURL: 'https://ibis-web-auth.firebaseio.com',
+    projectId: 'ibis-web-auth',
+    storageBucket: '',
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID,
+    measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 
 firebase.initializeApp(firebaseConfig);
